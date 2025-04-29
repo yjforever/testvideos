@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'Video1.mp4',
         'Video2.mp4',
         'Video3.mp4',
+        'Video4.mp4',
+        'Video5.mp4',
         // Add more video file paths here
     ];
 
@@ -28,6 +30,10 @@ document.addEventListener('DOMContentLoaded', () => {
             playVideo(1);
         } else if (event.key === '3') {
             playVideo(2);
+        } else if (event.key === '4') {
+            playVideo(3);
+        } else if (event.key === '5') {
+            playVideo(4);
         }
         // Add more keybindings for additional videos if needed
         // Example for key '4':
