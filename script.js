@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
         'Video6.mp4',
         'Video7.mp4',
         'Video8.mp4',
+        'Video9.mp4',
+        'Video10.mp4',
+        'Video11.mp4',
+        'Video12.mp4',
         // Add more video file paths here
     ];
 
@@ -45,6 +49,21 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         else if (event.key === '8') {
             playVideo(7);
+        }
+        else if (event.key === '9') {
+            playVideo(8);
+        }
+        else if (event.key === '0') {
+            playVideo(9);
+        }
+        else if (event.key === 'q') {
+            playVideo(10);
+        }
+        else if (event.key === 'w') {
+            playVideo(11);
+        }
+        else if (event.key === 'e') {
+            playVideo(12);
         }
         // Add more keybindings for additional videos if needed
         // Example for key '4':
